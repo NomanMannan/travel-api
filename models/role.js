@@ -3,7 +3,7 @@
  const Schema = mongoose.Schema;
 
  const roleSchema = new Schema({
-     ruleName: String,
+     roleName: String,
      description: String
  });
 

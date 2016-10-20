@@ -4,15 +4,15 @@ const Roles = require('../models/role');
 module.exports = function(app){
     app.get('/api/setupRoles', function(req, res){
         var starterRoles = [{
-            ruleName: 'Admin',
+            roleName: 'Admin',
             description: 'Admin Role'
         },
         {
-            ruleName: 'Manager',
+            roleName: 'Manager',
             description: 'Manager Role'
         },
         {
-            ruleName: 'User',
+            roleName: 'User',
             description: 'User Role'
         }
         ];
